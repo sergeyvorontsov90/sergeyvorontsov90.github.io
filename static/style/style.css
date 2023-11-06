@@ -1,0 +1,78 @@
+.body {
+    margin: 0;
+    padding: 0;    
+    background-image: url('../source/fon2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.library {
+    display: flex;
+    justify-content: right;
+    padding-right: 15px;
+    
+}
+.library a{
+    color: rgb(47, 34, 234);
+    text-decoration: none;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(17, 6, 176);
+
+}
+
+.border {
+    color: rgb(243, 8, 35);
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    color: rgb(17, 6, 176);
+}
+
+.containerButton {
+    display: flex;
+    justify-content:center;
+}
+
+.button {
+    background: linear-gradient(180deg, rgb(204, 232, 112), rgb(246, 118, 139));
+    margin: 7px;
+    padding: 5px;
+    font-size: large;
+    color: rgb(56, 44, 44);
+    border-style: solid;
+    border-color: rgb(198, 215, 209);
+}
+
+.buttonMove {
+    background: linear-gradient(70deg, rgb(124, 124, 243), rgb(234, 136, 152));
+
+}
+
+.staffResultPaid {
+    display: flex;
+    justify-content: center;
+    color: rgb(7, 2, 70);
+    font-size: larger;
+}
+
+.staffResultPaid li {
+    padding: 3px;
+}
+
+.buttonPress {
+    background: linear-gradient(70deg, rgb(124, 124, 243), rgb(234, 136, 152));
+}
+
+@media (max-width: 600px) {
+    .containerButton {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9) ;
+    }
+}

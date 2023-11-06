@@ -1,0 +1,41 @@
+.head {
+    background: linear-gradient(180deg, rgb(232, 112, 212), rgb(118, 246, 129));
+
+    text-align: center;
+}
+
+.category {
+    background: linear-gradient(180deg, rgb(232, 112, 212), rgb(118, 246, 129));
+    text-align: center;
+    border-style: none;
+    font-size: large;
+    font-weight: bold;
+}
+.bodyLib {
+  background-image: url("../source/fon2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.categoryT {
+    background: linear-gradient(180deg, rgb(232, 112, 212), rgb(118, 246, 129));
+    font-size: large;
+    font-weight: bold;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+}
+
+table tr td {
+    background: linear-gradient(180deg, rgb(204, 232, 112), rgb(246, 118, 139));
+    font-size: larger;
+    color: rgb(27, 3, 66);
+    padding: 2px;
+    border: 2px solid rgb(139, 136, 130);
+}
+
+table {
+    width: 1200px;
+}
