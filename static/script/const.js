@@ -30,7 +30,7 @@ const guestPaidButtonPress =
   <li>Если гость на постоянное проживание - поставьте автопродление ежегодно</li>\
   <li>Не забудьте проставить поставить галочку "не занимает место"</li>\
   <li>Присвойте номер и поправьте детализацию на Физ.Лицо</li>\
-  <li>В коментарии укажите - "Гость", если это онлайн заявка - добавьте ее номер</li></ul></div>';
+  <li>В комментарии укажите - "Гость", если это онлайн заявка - добавьте ее номер</li></ul></div>';
 
 const guestFreeButtonPress =
 '<div id="resultStaff" class="staffResultPaid"><ul >\
@@ -40,7 +40,7 @@ const guestFreeButtonPress =
 <li>Не забудьте проставить договор, как у основного гостя (в случае если договор отсутствует - то не надо)</li>\
 <li>Не забудьте проставить поставить галочку "не занимает место"</li>\
 <li>Присвойте номер</li>\
-<li>В коментарии укажите степень родства, если это онлайн заявка - добавьте ее номер</li></ul></div>';
+<li>В комментарии укажите степень родства, если это онлайн заявка - добавьте ее номер</li></ul></div>';
 
 const paidGuestType =
 '<div id="btnPaidType"><div class="conteiner" id="paidguestType"><h3>Выберете тип сотрудника</h3></div>\
@@ -57,7 +57,7 @@ const pogranResultList = '<div id="pogranResult" class="staffResultPaid"><ul >\
 <li>Не забудьте проставить договор</li>\
 <li>Блок не указываем</li>\
 <li>Присвойте номер</li>\
-<li>В коментарии укажите номер, тариф</li></ul></div>'
+<li>В комментарии укажите номер, тариф</li></ul></div>'
 
 const outSourceResultList = '<div id="outSourceResult" class="staffResultPaid"><ul >\
 <li>Если это "Мегафудс" - то тариф Рабочий/Партнер (койко-место) или  Рабочий/Партнер (номер стандарт) для Хостел С//Спец/НаучныйСотруд/Руковод/Рабочий/Партнер(номер стандарт), Спец/НаучныйСотруд/Руковод/Партнер(койко-место) для Сигма Б</li>\
@@ -68,7 +68,7 @@ const outSourceResultList = '<div id="outSourceResult" class="staffResultPaid"><
 <li>Блок не указываем</li>\
 <li>Тип гостя - сотрудник парнера</li>\
 <li>Присвойте номер</li>\
-<li>В коментарии укажите номер, название организации</li></ul></div>'
+<li>В комментарии укажите номер, название организации</li></ul></div>'
 
 const sigmaAResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Сигма А Стафф</li>\
@@ -81,7 +81,7 @@ const sigmaAResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><
 <li>Проставьте актуальную категорию номера</li>\
 <li>Укажите тип гостя: если это сотрудник Фонда - то "Сотрудник", для других - это "Сотрудник партнера"</li>\
 <li>Присвойте номер</li>\
-<li>В коментарии укажите номер, номер СЗ, тариф</li></ul></div>'
+<li>В комментарии укажите номер, номер СЗ, тариф</li></ul></div>'
 
 const sigmaAResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Сигма А Стафф</li>\
@@ -95,7 +95,7 @@ const sigmaAResultPartnerList = '<div id="oblectReultList" class="staffResultPai
 <li>Если это сотрудник Университета - укажите тип гостя - "Сотрудник партнера"</li>\
 <li>если АФТ (партнеры) - тип гостя "Представитель органов власти федеральной территории «Сириус»"</li>\
 <li>Присвойте номер</li>\
-<li>В коментарии укажите номер, тариф, оплата на стойке</li></ul></div>'
+<li>В комментарии укажите номер, тариф, оплата на стойке</li></ul></div>'
 
 const sigmaBResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Сигма Б</li>\
@@ -110,7 +110,7 @@ const sigmaBResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><
 <li>Проставьте актуальную категорию номера</li>\
 <li>Укажите тип гостя: если это сотрудник Фонда - то "Сотрудник", для других - это "Сотрудник партнера"</li>\
 <li>Присвойте номер</li>\
-<li>В коментарии укажите номер, номер СЗ, тариф</li></ul></div>'
+<li>В комментарии укажите номер, номер СЗ, тариф</li></ul></div>'
 
 const sigmaBResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Сигма Б</li>\
@@ -123,7 +123,7 @@ const sigmaBResultPartnerList = '<div id="oblectReultList" class="staffResultPai
 <li>Если это сотрудник Университета - укажите тип гостя - "Сотрудник партнера"</li>\
 <li>если АФТ (партнеры) - тип гостя "Представитель органов власти федеральной территории «Сириус»"</li>\
 <li>Присвойте номер</li>\
-<li>В коментарии укажите номер, тариф, оплата на стойке</li></ul></div>'
+<li>В комментарии укажите номер, тариф, оплата на стойке</li></ul></div>'
 
 const gammaResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Тариф SOTRUDNIKI(Без уборки), SOTRUDNIKI(Улучшенной планировки без уборки) => для сотрудников в 17 корпусе</li>\
@@ -135,7 +135,7 @@ const gammaResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><u
 <li>Проставьте актуальную категорию номера</li>\
 <li>Укажите тип гостя: если это сотрудник Фонда - то "Сотрудник", для других - это "Сотрудник партнера"</li>\
 <li>Присвойте номер</li>\
-<li>В коментарии укажите номер, номер СЗ, тариф</li></ul></div>'
+<li>В комментарии укажите номер, номер СЗ, тариф</li></ul></div>'
 
 const gammaResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Тариф SPETSLONGRO(Без уборки), SPETSLONGRO(Без уборки, Улучшенной планировки) = > для сотрудников в 17 корпусе</li>\
@@ -147,7 +147,7 @@ const gammaResultPartnerList = '<div id="oblectReultList" class="staffResultPaid
 <li>Если это сотрудник Университета - укажите тип гостя - "Сотрудник партнера"</li>\
 <li>если АФТ (партнеры) - тип гостя "Представитель органов власти федеральной территории «Сириус»"</li>\
 <li>Присвойте номер</li>\
-<li>В коментарии укажите номер, тариф, оплата на стойке</li></ul></div>'
+<li>В комментарии укажите номер, тариф, оплата на стойке</li></ul></div>'
 
 const deltaResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Тариф SOTRUDNIKI2021</li>\
@@ -157,7 +157,7 @@ const deltaResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><u
 <li>Укажите актуальный блок</li>\
 <li>Проставьте актуальную категорию номера</li>\
 <li>Укажите тип гостя: если это сотрудник Фонда - то "Сотрудник", для других - это "Сотрудник партнера"</li>\
-<li>В коментарии укажите категорию, номер СЗ, тариф</li></ul></div>'
+<li>В комментарии укажите категорию, номер СЗ, тариф</li></ul></div>'
 
 const deltaResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Тариф SPETSLONGRO (без уборки)</li>\
@@ -168,7 +168,7 @@ const deltaResultPartnerList = '<div id="oblectReultList" class="staffResultPaid
 <li>Проставьте актуальную категорию номера</li>\
 <li>Если это сотрудник Университета - укажите тип гостя - "Сотрудник партнера"</li>\
 <li>если АФТ (партнеры) - тип гостя "Представитель органов власти федеральной территории «Сириус»"</li>\
-<li>В коментарии укажите категорию, тариф, оплата на стойке</li></ul></div>'
+<li>В комментарии укажите категорию, тариф, оплата на стойке</li></ul></div>'
 
 const alfaResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Если отели Морской, Парковый, Заповедный, Прибрежный - то тарифы Сотрудники/Льготный тариф \
@@ -181,7 +181,7 @@ const alfaResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><ul
 <li>Укажите актуальный блок</li>\
 <li>Проставьте актуальную категорию номера</li>\
 <li>Укажите тип гостя: если это сотрудник Фонда - то "Сотрудник", для других - это "Сотрудник партнера"</li>\
-<li>В коментарии укажите категорию, номер СЗ, тариф</li></ul></div>'
+<li>В комментарии укажите категорию, номер СЗ, тариф</li></ul></div>'
 
 const alfaResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Для сотрудников Университета - тариф LONGRO/УНИВЕРСИТЕТ, для партнеров - Сотрудники/Льготный тариф</li>\
@@ -192,7 +192,7 @@ const alfaResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"
 <li>Проставьте актуальную категорию номера</li>\
 <li>Если это сотрудник Университета - укажите тип гостя - "Сотрудник партнера"</li>\
 <li>если АФТ (партнеры) - тип гостя "Представитель органов власти федеральной территории «Сириус»"</li>\
-<li>В коментарии укажите категорию, тариф, оплата на стойке</li></ul></div>'
+<li>В комментарии укажите категорию, тариф, оплата на стойке</li></ul></div>'
 
 const parusResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Парусная</li>\
@@ -204,7 +204,7 @@ const parusResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><u
 <li>Проставьте актуальную категорию номера</li>\
 <li>Укажите тип гостя: если это сотрудник Фонда - то "Сотрудник", для других - это "Сотрудник партнера"</li>\
 <li>Присвойте номер</li>\
-<li>В коментарии укажите номер, номер СЗ, тариф</li></ul></div>'
+<li>В комментарии укажите номер, номер СЗ, тариф</li></ul></div>'
 
 const parusResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Парусная</li>\
@@ -217,7 +217,7 @@ const parusResultPartnerList = '<div id="oblectReultList" class="staffResultPaid
 <li>Если это сотрудник Университета - укажите тип гостя - "Сотрудник партнера"</li>\
 <li>если АФТ (партнеры) - тип гостя "Представитель органов власти федеральной территории «Сириус»"</li>\
 <li>Присвойте номер</li>\
-<li>В коментарии укажите номер, тариф, оплата на стойке</li></ul></div>'
+<li>В комментарии укажите номер, тариф, оплата на стойке</li></ul></div>'
 
 const arizonaResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Аризона</li>\
@@ -229,7 +229,7 @@ const arizonaResultEcoList = '<div id="oblectReultList" class="staffResultPaid">
 <li>Проставьте актуальную категорию номера</li>\
 <li>Укажите тип гостя: если это сотрудник Фонда - то "Сотрудник", для других - это "Сотрудник партнера"</li>\
 <li>Присвойте номер</li>\
-<li>В коментарии укажите номер, номер СЗ, тариф</li></ul></div>'
+<li>В комментарии укажите номер, номер СЗ, тариф</li></ul></div>'
 
 const arizonaResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Аризона</li>\
@@ -242,7 +242,7 @@ const arizonaResultPartnerList = '<div id="oblectReultList" class="staffResultPa
 <li>Если это сотрудник Университета - укажите тип гостя - "Сотрудник партнера"</li>\
 <li>если АФТ (партнеры) - тип гостя "Представитель органов власти федеральной территории «Сириус»"</li>\
 <li>Присвойте номер</li>\
-<li>В коментарии укажите номер, тариф, оплата на стойке</li></ul></div>'
+<li>В комментарии укажите номер, тариф, оплата на стойке</li></ul></div>'
 
 const hostelResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Хостел</li>\
@@ -254,7 +254,7 @@ const hostelResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><
 <li>Проставьте актуальную категорию номера</li>\
 <li>Укажите тип гостя: если это сотрудник Фонда - то "Сотрудник", для других - это "Сотрудник партнера"</li>\
 <li>Присвойте номер</li>\
-<li>В коментарии укажите номер, номер СЗ, тариф</li></ul></div>'
+<li>В комментарии укажите номер, номер СЗ, тариф</li></ul></div>'
 
 const hostelResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Хостел</li>\
@@ -267,4 +267,4 @@ const hostelResultPartnerList = '<div id="oblectReultList" class="staffResultPai
 <li>Если это сотрудник Университета - укажите тип гостя - "Сотрудник партнера"</li>\
 <li>если АФТ (партнеры) - тип гостя "Представитель органов власти федеральной территории «Сириус»"</li>\
 <li>Присвойте номер</li>\
-<li>В коментарии укажите номер, тариф, оплата на стойке</li></ul></div>'
+<li>В комментарии укажите номер, тариф, оплата на стойке</li></ul></div>'
