@@ -18,6 +18,14 @@ lib.addEventListener("mouseout", function () {//наведение на спра
   lib.classList.remove("border");
 });
 
+depart.addEventListener("mouseover", function () {//наведение на справочник
+  depart.classList.add("border2");
+});
+
+depart.addEventListener("mouseout", function () {//наведение на справочник
+  depart.classList.remove("border2");
+});
+
 function moverOn() {//наведение на кнопки
   const buttons = document.querySelectorAll(".button");
   for (let item of buttons) {
