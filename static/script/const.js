@@ -61,7 +61,6 @@ const pogranResultList = '<div id="pogranResult" class="staffResultPaid"><ul >\
 
 const outSourceResultList = '<div id="outSourceResult" class="staffResultPaid"><ul >\
 <li>Если это "Мегафудс" - то тариф Рабочий/Партнер (койко-место) или  Рабочий/Партнер (номер стандарт) для Хостел С//Спец/НаучныйСотруд/Руковод/Рабочий/Партнер(номер стандарт), Спец/НаучныйСотруд/Руковод/Партнер(койко-место) для Сигма Б</li>\
-<li>Если это сотрудник ММЦ - то тариф PartnerStaff(за номер) на Сигма А</li>\
 <li>Если это другой аутсорс - то тариф HOUSEAS на Аризона</li>\
 <li>Укажите дату заезда и выезда</li>\
 <li>Если это "Мегафудс" или ММЦ - не забудьте проставить договор (в зависимости от объекта)</li>\
@@ -87,6 +86,7 @@ const sigmaAResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><
 const sigmaAResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Сигма А Стафф</li>\
 <li>Тариф SPETSLONGRO(без уборки), SPETSLONGRO(койко-место)</li>\
+<li>Если это сотрудник ММЦ - то тариф PartnerStaff(за номер) на Сигма А</li>\
 <li>Укажите дату заезда и выезда</li>\
 <li>Договор не ставим</li>\
 <li>Если гость на постоянное проживание - поставьте автопродление ежегодно</li>\
