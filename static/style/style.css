@@ -14,6 +14,7 @@
     
 }
 .library a{
+    margin-left: 15px;
     color: rgb(47, 34, 234);
     text-decoration: none;
 }
@@ -28,10 +29,20 @@
     color: rgb(243, 8, 35);
 }
 
+.border2 {
+    color: rgb(17, 141, 17);
+}
+
 .conteiner {
     display: flex;
     justify-content: center;
     color: rgb(17, 6, 176);
+}
+
+.conteiner1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(176, 46, 6);
 }
 
 .containerButton {
