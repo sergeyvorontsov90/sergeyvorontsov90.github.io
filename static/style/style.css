@@ -92,4 +92,11 @@
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(9) ;
     }
+
+    .staffResultPaid ul li{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(15) ;
+        width: 100%;
+    }
 }
