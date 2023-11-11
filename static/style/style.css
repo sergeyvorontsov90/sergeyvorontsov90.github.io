@@ -78,7 +78,7 @@
     color: rgb(21, 10, 177);
     padding: 3px;
     border: 1px solid pink;
-    background: linear-gradient(90deg, rgb(96, 197, 105), rgb(124, 124, 243), rgb(234, 136, 152));
+    background: linear-gradient(90deg, rgba(96, 197, 105, 0.7), rgb(124, 124, 243), rgba(234, 136, 152, 0.7));
     list-style: none;
 }
 
