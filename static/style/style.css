@@ -66,16 +66,20 @@
 }
 
 .staffResultPaid {
+    display: flex;
+    justify-content: center;
+    height: 382px;
+    color: rgb(7, 2, 70);
+    font-size: larger;
+}
+
+.staffResultPaid li {
     width: 1080px;
     color: rgb(21, 10, 177);
     padding: 3px;
     border: 1px solid pink;
     background: linear-gradient(90deg, rgb(96, 197, 105), rgb(124, 124, 243), rgb(234, 136, 152));
     list-style: none;
-}
-
-.staffResultPaid li {
-    padding: 3px;
 }
 
 .buttonPress {
