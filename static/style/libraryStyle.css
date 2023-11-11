@@ -1,5 +1,5 @@
 .head {
-    background: linear-gradient(180deg, rgb(232, 112, 212), rgb(118, 246, 129));
+    background: linear-gradient(180deg, rgb(232, 112, 212, 0.7), rgb(118, 246, 129, 0.7));
 
     text-align: center;
 }
@@ -18,7 +18,7 @@
 }
 
 .categoryT {
-    background: linear-gradient(180deg, rgb(232, 112, 212), rgb(118, 246, 129));
+    background: linear-gradient(180deg, rgb(232, 112, 212, 0.7), rgb(118, 246, 129, 0.7));
     font-size: large;
     font-weight: bold;
 }
