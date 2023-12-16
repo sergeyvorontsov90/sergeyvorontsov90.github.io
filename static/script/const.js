@@ -85,7 +85,7 @@ const sigmaAResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><
 
 const sigmaAResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Сигма А Стафф</li>\
-<li>Тариф SPETSLONGRO(без уборки), SPETSLONGRO(койко-место)</li>\
+<li>Для сотрудников Университета - тариф LONGRO/УНИВЕРСИТЕТ//Для партнеров тариф SPETSLONGRO</li>\
 <li>Если это сотрудник ММЦ - то тариф PartnerStaff(за номер) на Сигма А</li>\
 <li>Если это сотрудник Росгвардии - то тариф Rosguards (за номер), Rosguards (койко-место) на Сигма А</li>\
 <li>Укажите дату заезда и выезда</li>\
@@ -115,7 +115,7 @@ const sigmaBResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><
 
 const sigmaBResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Сигма Б</li>\
-<li>Тариф LONGRO(без уборки), LONGRO(койко-место)</li>\
+<li>Для сотрудников Университета - тариф LONGRO/УНИВЕРСИТЕТ//Для партнеров тариф LONGRO</li>\
 <li>Укажите дату заезда и выезда</li>\
 <li>Договор не ставим, если только не указано в заявке</li>\
 <li>Если гость на постоянное проживание - поставьте автопродление ежегодно</li>\
@@ -139,7 +139,7 @@ const gammaResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><u
 <li>В комментарии укажите номер, номер СЗ, тариф</li></ul></div>'
 
 const gammaResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
-<li>Тариф SPETSLONGRO(Без уборки), SPETSLONGRO(Без уборки, Улучшенной планировки) = > для сотрудников в 17 корпусе</li>\
+<li>Для сотрудников Университета - тариф LONGRO/УНИВЕРСИТЕТ//Для партнеров тариф SPETSLONGRO//Для сотрудников в 17 корпусе - "Улучшенной пларнировки"</li>\
 <li>Укажите дату заезда и выезда</li>\
 <li>Договор не ставим, если только не указано в заявке</li>\
 <li>Если гость на постоянное проживание - поставьте автопродление ежегодно</li>\
@@ -161,7 +161,7 @@ const deltaResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><u
 <li>В комментарии укажите категорию, номер СЗ, тариф</li></ul></div>'
 
 const deltaResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
-<li>Тариф SPETSLONGRO (без уборки)</li>\
+<li>Для сотрудников Университета - тариф LONGRO/УНИВЕРСИТЕТ//Для партнеров тариф SPETSLONGRO</li>\
 <li>Укажите дату заезда и выезда</li>\
 <li>Договор не ставим, если только не указано в заявке</li>\
 <li>Если гость на постоянное проживание - поставьте автопродление ежегодно</li>\
@@ -209,7 +209,7 @@ const parusResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><u
 
 const parusResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Парусная</li>\
-<li>Тариф LONGRO(без уборки)</li>\
+<li>Для сотрудников Университета - тариф LONGRO/УНИВЕРСИТЕТ//Для партнеров тариф LONGRO</li>\
 <li>Укажите дату заезда и выезда</li>\
 <li>Договор не ставим, если только не указано в заявке</li>\
 <li>Если гость на постоянное проживание - поставьте автопродление ежегодно</li>\
@@ -234,7 +234,7 @@ const arizonaResultEcoList = '<div id="oblectReultList" class="staffResultPaid">
 
 const arizonaResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Аризона</li>\
-<li>Тариф LONGRO(без уборки), LONGRO(койко-место)</li>\
+<li>Для сотрудников Университета - тариф LONGRO/УНИВЕРСИТЕТ//Для партнеров тариф LONGRO</li>\
 <li>Укажите дату заезда и выезда</li>\
 <li>Договор не ставим, если только не указано в заявке</li>\
 <li>Если гость на постоянное проживание - поставьте автопродление ежегодно</li>\
@@ -259,7 +259,7 @@ const hostelResultEcoList = '<div id="oblectReultList" class="staffResultPaid"><
 
 const hostelResultPartnerList = '<div id="oblectReultList" class="staffResultPaid"><ul >\
 <li>Выберите отель - Хостел</li>\
-<li>Тариф LONGRO(без уборки), LONGRO(койко-место)</li>\
+<li>Для сотрудников Университета - тариф LONGRO/УНИВЕРСИТЕТ//Для партнеров тариф LONGRO</li>\
 <li>Укажите дату заезда и выезда</li>\
 <li>Договор не ставим, если только не указано в заявке</li>\
 <li>Если гость на постоянное проживание - поставьте автопродление ежегодно</li>\
